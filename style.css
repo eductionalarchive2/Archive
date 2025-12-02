@@ -8,7 +8,7 @@ a:link, a:visited, a:hover, a:active {
 /* Body and Headings */
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(228, 8, 10); /* red color for the webpage  */
+  background-color: rgb(125, 218, 88); /* green color for the webpage  */
   color: rgb(0, 0, 0); /* Black text color */
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ h1, h2 {
   justify-content: center;
   margin: 10px;
   padding: 15px 20px; /* Enlarge the padding */
-  background-color: rgb(125, 218, 88); /* green button color */
+  background-color: rgb(228, 8, 10); /* red button color */
   color: white;
   text-align: center;
   text-decoration: none;
