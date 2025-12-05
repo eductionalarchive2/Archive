@@ -7,7 +7,7 @@
     <script src="/js/panic.js"></script>
     <script src="/js/autoclicker.js"></script>
 
-<title>67 Games</title>
+<title>Mysterious Brainbreaks Site</title>
 <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/995/582/png-transparent-google-classroom-teacher-g-suite-computer-icons-class-room-angle-text-class-thumbnail.pngd"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -66,22 +66,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body>
 <div class="container">
-<h1>67 Games</h1>
+<h1>Mysterious Brain Breaks</h1>
 <center>
     <a>Time Spent: </a><span id="timeSpent">Loading...</span>
 </center>
-<center><h4>Welcome to 67 Gaming site where there are Games. I'm not responsible if you get in any trouble!!!!
+<center><h4>Welcome to Mysterious Brain Breaks site where there are Brain Breaks. I'm not responsible if you get in any trouble!!!!
 </h4></center>
-<center><h5>Press \ to go to google if teacher is coming and go relax your brain with some Games, Also give credit to Gibbat2 for having the site's code, I forked it and tweaked it. Also i added some games with htlm 5
-archive games give credit to them here is the link for gibbat2 repo: https://github.com/Gibbat2/Games link for htlm5archive: https://github.com/HTML5GameArchive/gfiles.
-Also blue means extended games that the orginial author of website (gibbat2) did not add</h5></center>
+<center><h5>Press \ to go to google as a feature and go relax your brain with some brain breaks, Also give credit to Gibbat2 for having the site's code, I forked it and tweaked it</h5></center>
 <br></br>
-    <button class="button"><a style="text-decoration:none" href='games/slope'><img src="images/slope.png" alt="Slope"> <span>Slope</span></a></button>
+<div class="search-container">
+<input type="text" style="color:white" id="searchInput" onkeyup="searchButtons()" placeholder="Search for experiments...">
+</div>
+
+    </div>
+    <p id="time"></p>
+    
+<div class="button-container1">
+<button class="button"><a target="_blank" style="text-decoration:none" href="https://docs.google.com/forms/d/e/1FAIpQLSf1ck6TEwRF0TFp_HgHcKjQ7OSR5cjF70ocX3ZkotO7tx_Z1g/viewform?usp=publish-editor">Any questions about the site?</a></button>
+
+</div>
+
+<div class="button-container">
+<button class="button"><a style="text-decoration:none" href='games/slope'><img src="images/slope.png" alt="Slope"> <span>Slope</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/retro-bowl'><img src="images/retrobowl.jpg" alt="Retro Bowl"> <span>Retro Bowl [New Verison]</span></a></button>
-<button class="button"><a style="text-decoration:none" href='games/blockblast'><img src="images/blockblast.png" alt=""> <span style="color:red">Block Blast NEW!</span></a></button>
+<button class="button"><a style="text-decoration:none" href='games/blockblast'><img src="images/blockblast.png" alt=""> <span style="color:orange">Block Blast NEW!</span></a></button>
+    <button class="button"><a style="text-decoration:none" href='games/clusterrush'><img src="" alt=""> <span style="color:blue">Clusterrush</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/idle-breakout'><img src="images/idlebreakout.png" alt=""> <span style="color:red">Idle Breakout NEW!</span></a></button>
-<button class="button"><a style="text-decoration:none" href='games/clusterrush'><img src="" alt=""> <span style="color:blue">Cluster rush NEW!</span></a></button>    
-<button class="button"><a style="text-decoration:none" href='games/cut-the-rope'><img src="images/cuttherope.png" alt=""> <span>Cut The Rope</span></a></button>    
+<button class="button"><a style="text-decoration:none" href='games/cut-the-rope'><img src="images/cuttherope.png" alt=""> <span>Cut The Rope</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/tanktrouble'><img src="images/tanktrouble.png" alt=""> <span>Tank Trouble</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/drifthunters'><img src="images/drifthunters.png" alt=""> <span>Drift Hunters </span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/volleyrandom'><img src="images/volleyrandom.png" alt=""> <span >Volley Random</span></a></button>
@@ -104,7 +115,10 @@ Also blue means extended games that the orginial author of website (gibbat2) did
 <button class="button"><a style="text-decoration:none" href='games/elonmusk'><img src="images/elonmusk.png" alt=""> <span>Spend Elon's Money</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/pvz'><img src="images/pvz.png" alt=""> <span>Plants V Zombies</span></a>
 <button class="button"><a style="text-decoration:none" href='games/ducklife'><img src="images/ducklife.png"> <span>Duck Life</span></a></button>
+<button class="button"><a style="text-decoration:none" href='games/minesweeper'><img src="images/minesweeper.png" alt=""> <span>Mine Sweeper</span></a>
 <button class="button"><a style="text-decoration:none" href='games/pixelgun'><img src="images/pixelgun.png" alt=""> <span>Pixel Gun</span></a>
+<button class="button"><a style="text-decoration:none" href='games/googlesnake'><img src="images/googlesnake.jpg" alt=""> <span>Google Snake </span></a></button>
+<button class="button"><a style="text-decoration:none" href='games/ngon'><img src="images/ngon.jpg" alt=""> <span>N Gon</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/ovo'><img src="images/ovo.jpg" alt="R"> <span>OVO</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/basketballstars'><img src="images/basketballstars.png" alt="Basketball Stars"> <span>Basketball Stars</span></a></button>
 <button class="button"><a style="text-decoration:none" href='games/stacktris'><img src="images/stacktris.jpg" alt=""> <span>Stacktris</span></a></button>
@@ -136,21 +150,6 @@ Also blue means extended games that the orginial author of website (gibbat2) did
 <button class="button"><a style="text-decoration:none" href='games/ducklife1'><img src="images/ducklife1.png" width="200" height="200" alt=""> <br>Duck Life 1</a></button>
 <button class="button"><a style="text-decoration:none" href='games/sandboxels'><img src="https://sandboxels.r74n.com/icons/icon.png" width="200" height="200" alt=""> <br>Sand Boxels</a></button>
 <button class="button"><a style="text-decoration:none" href='games/ragdollarchers'><img src="data:image/jpeg;base64,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" width="200" height="200" alt=""> <br>Ragdoll Archers</a></button>
-</div>
-<div class="search-container">
-<input type="text" style="color:white" id="searchInput" onkeyup="searchButtons()" placeholder="Search for experiments...">
-</div>
-
-    </div>
-    <p id="time"></p>
-    
-<div class="button-container1">
-<button class="button"><a target="_blank" style="text-decoration:none" href="https://docs.google.com/forms/d/e/1FAIpQLSf1ck6TEwRF0TFp_HgHcKjQ7OSR5cjF70ocX3ZkotO7tx_Z1g/viewform?usp=publish-editor">Any questions about the site?</a></button>
-
-</div>
-
-<div class="button-container">
-<button class="button"><a style="text-decoration:none" href=''><img src="images/blockblast.png" alt=""> <span style="color:blue">Ovo 2</span></a></button>
 </div>
 </body>
 <body>
